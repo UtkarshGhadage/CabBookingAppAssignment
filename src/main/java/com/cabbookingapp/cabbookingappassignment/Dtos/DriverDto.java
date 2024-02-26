@@ -16,6 +16,7 @@ public class DriverDto {
     private int age;
     private Location location;
     private String vehicleDetails;
-    private Avaliability available;
+    @Builder.Default
+    private Avaliability available = Avaliability.AVAILABLE;
 
 }
